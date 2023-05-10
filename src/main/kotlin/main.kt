@@ -10,8 +10,6 @@ data class Message(
     var read: Boolean = false,
     )
 
-class ChatNotFound : RuntimeException()
-
 object ChatService {
     val chats = mutableMapOf<Int, Chat>()
 
